@@ -1,2 +1,2 @@
 # some_matter
-a place filled with all the bulshittery you want
+An amazing place filled with various stuff not necessarily connected one to another
