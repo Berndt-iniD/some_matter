@@ -1,0 +1,24 @@
+GPIO.BOARD |GPIO.BCM
+position   |position
+
+GPIO 1  --> 3V3 power   |        5V power <-- GPIO 2
+GPIO 3  --> 2 (SDA)     |        5V power <-- GPIO 4 
+GPIO 5  --> 3 (SCL)     |             GND <-- GPIO 6
+GPIO 7  --> 4 (GPCLK0)  |        14 (TXD) <-- GPIO 8
+GPIO 9  --> GND         |       15 (RXD) <-- GPIO 10
+GPIO 11 --> 17          |   18 (PCM_CLK) <-- GPIO 12
+GPIO 13 --> 27          |            GND <-- GPIO 14
+GPIO 15 --> 22          |             23 <-- GPIO 16
+GPIO 17 --> 3V3 power   |             24 <-- GPIO 18
+GPIO 19 --> 10 (MOSI)   |            GND <-- GPIO 20
+GPIO 21 --> 9 (MISO)    |             25 <-- GPIO 22
+GPIO 23 --> 11 (SCLK)   |        8 (CE0) <-- GPIO 24
+GPIO 25 --> GND         |        7 (CE1) <-- GPIO 26
+GPIO 27 --> 0 (ID_SD)   |      1 (ID_SC) <-- GPIO 28
+GPIO 29 --> 5           |            GND <-- GPIO 30
+GPIO 31 --> 6           |      12 (PWM0) <-- GPIO 32
+GPIO 33 --> 13 (PWM1)   |            GND <-- GPIO 34
+GPIO 35 --> 19 (PCM_FS) |             16 <-- GPIO 36
+GPIO 37 --> 26          |   20 (PCM_DIN) <-- GPIO 38
+GPIO 39 --> GND         |  21 (PCM_DOUT) <-- GPIO 40
+
